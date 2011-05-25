@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.153" errors="0" skipped="0" tests="2" name="org.openid4java.discovery.html.CyberNekoDOMHtmlParserTest">
+  <properties>
+    <property name="TEST_DATA" value="/Users/jhsu/code/openid4java-read-only/test/src/org/openid4java/"/>
+    <property name="SERVLET_PORT" value="8989"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="19.1-b02-334"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="10M3326"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/jhsu/code/openid4java-read-only"/>
+    <property name="java.runtime.version" value="1.6.0_24-b07-334-10M3326"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/jhsu/code/openid4java-read-only"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/jhsu/code/openid4java-read-only/target/surefire/surefirebooter8293293368044911828.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/51/518IU+vDFRC+l0NNGVQv4++++TM/-Tmp-/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/jhsu/code/openid4java-read-only/target/test-classes:/Users/jhsu/code/openid4java-read-only/target/classes:/Users/jhsu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/jhsu/.m2/repository/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar:/Users/jhsu/.m2/repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar:/Users/jhsu/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/jhsu/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.10/nekohtml-1.9.10.jar:/Users/jhsu/.m2/repository/org/openxri/openxri-syntax/1.2.0/openxri-syntax-1.2.0.jar:/Users/jhsu/.m2/repository/com/ibm/icu/icu4j/3.4.4/icu4j-3.4.4.jar:/Users/jhsu/.m2/repository/org/slf4j/slf4j-jcl/1.0.1/slf4j-jcl-1.0.1.jar:/Users/jhsu/.m2/repository/org/openxri/openxri-client/1.2.0/openxri-client-1.2.0.jar:/Users/jhsu/.m2/repository/jug/jug/1.1.2/jug-1.1.2.jar:/Users/jhsu/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar:/Users/jhsu/.m2/repository/com/google/code/guice/guice/2.0/guice-2.0.jar:/Users/jhsu/.m2/repository/net/sf/ehcache/ehcache/1.3.0/ehcache-1.3.0.jar:/Users/jhsu/.m2/repository/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar:/Users/jhsu/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-configuration-api/SNAPSHOT/higgins-configuration-api-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-api/SNAPSHOT/higgins-sts-api-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-common/SNAPSHOT/higgins-sts-common-SNAPSHOT.jar:/Users/jhsu/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-server-token-handler/SNAPSHOT/higgins-sts-server-token-handler-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-spi/SNAPSHOT/higgins-sts-spi-SNAPSHOT.jar:/Users/jhsu/.m2/repository/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar:/Users/jhsu/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar:/Users/jhsu/.m2/repository/xml-security/xmlsec/1.3.0/xmlsec-1.3.0.jar:/Users/jhsu/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.5/axiom-api-1.2.5.jar:/Users/jhsu/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/jhsu/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/jhsu/.m2/repository/jaxen/jaxen/1.1-beta-9/jaxen-1.1-beta-9.jar:/Users/jhsu/.m2/repository/org/springframework/spring-jdbc/2.0.6/spring-jdbc-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-beans/2.0.6/spring-beans-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-context/2.0.6/spring-context-2.0.6.jar:/Users/jhsu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jhsu/.m2/repository/org/springframework/spring-core/2.0.6/spring-core-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-dao/2.0.6/spring-dao-2.0.6.jar:/Users/jhsu/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/Users/jhsu/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/jhsu/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/jhsu/.m2/repository/jetty/jetty/6.0.2/jetty-6.0.2.jar:/Users/jhsu/.m2/repository/jetty/jetty-util/6.0.2/jetty-util-6.0.2.jar:/Users/jhsu/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/jhsu/.m2/repository/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/jwebunit-htmlunit-plugin-1.4.1.jar:/Users/jhsu/.m2/repository/htmlunit/htmlunit/1.11/htmlunit-1.11.jar:/Users/jhsu/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/Users/jhsu/.m2/repository/commons-lang/commons-lang/2.2/commons-lang-2.2.jar:/Users/jhsu/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/Users/jhsu/.m2/repository/rhino/js/1.6R5/js-1.6R5.jar:/Users/jhsu/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/jhsu/.m2/repository/commons-io/commons-io/1.3/commons-io-1.3.jar:/Users/jhsu/.m2/repository/net/sourceforge/jwebunit/jwebunit-core/1.4.1/jwebunit-core-1.4.1.jar:/Users/jhsu/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Server Compiler"/>
+    <property name="os.version" value="10.6.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="user.home" value="/Users/jhsu"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="jhsu"/>
+    <property name="java.class.path" value="/Users/jhsu/code/openid4java-read-only/target/test-classes:/Users/jhsu/code/openid4java-read-only/target/classes:/Users/jhsu/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/jhsu/.m2/repository/org/apache/httpcomponents/httpclient/4.1/httpclient-4.1.jar:/Users/jhsu/.m2/repository/org/apache/httpcomponents/httpcore/4.1/httpcore-4.1.jar:/Users/jhsu/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/jhsu/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.10/nekohtml-1.9.10.jar:/Users/jhsu/.m2/repository/org/openxri/openxri-syntax/1.2.0/openxri-syntax-1.2.0.jar:/Users/jhsu/.m2/repository/com/ibm/icu/icu4j/3.4.4/icu4j-3.4.4.jar:/Users/jhsu/.m2/repository/org/slf4j/slf4j-jcl/1.0.1/slf4j-jcl-1.0.1.jar:/Users/jhsu/.m2/repository/org/openxri/openxri-client/1.2.0/openxri-client-1.2.0.jar:/Users/jhsu/.m2/repository/jug/jug/1.1.2/jug-1.1.2.jar:/Users/jhsu/.m2/repository/xalan/xalan/2.7.0/xalan-2.7.0.jar:/Users/jhsu/.m2/repository/com/google/code/guice/guice/2.0/guice-2.0.jar:/Users/jhsu/.m2/repository/net/sf/ehcache/ehcache/1.3.0/ehcache-1.3.0.jar:/Users/jhsu/.m2/repository/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar:/Users/jhsu/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.0/backport-util-concurrent-3.0.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-configuration-api/SNAPSHOT/higgins-configuration-api-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-api/SNAPSHOT/higgins-sts-api-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-common/SNAPSHOT/higgins-sts-common-SNAPSHOT.jar:/Users/jhsu/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-server-token-handler/SNAPSHOT/higgins-sts-server-token-handler-SNAPSHOT.jar:/Users/jhsu/.m2/repository/org/eclipse/higgins/higgins-sts-spi/SNAPSHOT/higgins-sts-spi-SNAPSHOT.jar:/Users/jhsu/.m2/repository/xerces/xercesImpl/2.8.1/xercesImpl-2.8.1.jar:/Users/jhsu/.m2/repository/xml-apis/xml-apis/1.3.03/xml-apis-1.3.03.jar:/Users/jhsu/.m2/repository/xml-security/xmlsec/1.3.0/xmlsec-1.3.0.jar:/Users/jhsu/.m2/repository/org/apache/ws/commons/axiom/axiom-api/1.2.5/axiom-api-1.2.5.jar:/Users/jhsu/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/jhsu/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/jhsu/.m2/repository/jaxen/jaxen/1.1-beta-9/jaxen-1.1-beta-9.jar:/Users/jhsu/.m2/repository/org/springframework/spring-jdbc/2.0.6/spring-jdbc-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-beans/2.0.6/spring-beans-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-context/2.0.6/spring-context-2.0.6.jar:/Users/jhsu/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/jhsu/.m2/repository/org/springframework/spring-core/2.0.6/spring-core-2.0.6.jar:/Users/jhsu/.m2/repository/org/springframework/spring-dao/2.0.6/spring-dao-2.0.6.jar:/Users/jhsu/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/Users/jhsu/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/jhsu/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/Users/jhsu/.m2/repository/jetty/jetty/6.0.2/jetty-6.0.2.jar:/Users/jhsu/.m2/repository/jetty/jetty-util/6.0.2/jetty-util-6.0.2.jar:/Users/jhsu/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/Users/jhsu/.m2/repository/net/sourceforge/jwebunit/jwebunit-htmlunit-plugin/1.4.1/jwebunit-htmlunit-plugin-1.4.1.jar:/Users/jhsu/.m2/repository/htmlunit/htmlunit/1.11/htmlunit-1.11.jar:/Users/jhsu/.m2/repository/commons-collections/commons-collections/3.2/commons-collections-3.2.jar:/Users/jhsu/.m2/repository/commons-lang/commons-lang/2.2/commons-lang-2.2.jar:/Users/jhsu/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/Users/jhsu/.m2/repository/rhino/js/1.6R5/js-1.6R5.jar:/Users/jhsu/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/jhsu/.m2/repository/commons-io/commons-io/1.3/commons-io-1.3.jar:/Users/jhsu/.m2/repository/net/sourceforge/jwebunit/jwebunit-core/1.4.1/jwebunit-core-1.4.1.jar:/Users/jhsu/.m2/repository/regexp/regexp/1.3/regexp-1.3.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="netbeans.execution" value="true"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_24"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="YADIS_TEST_DATA" value="/Users/jhsu/code/openid4java-read-only/target/test-data"/>
+    <property name="localRepository" value="/Users/jhsu/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1060.1.6.0_24-334"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16|localhost|*.localhost"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.148" classname="org.openid4java.discovery.html.CyberNekoDOMHtmlParserTest" name="testParseHtml"/>
+  <testcase time="0.003" classname="org.openid4java.discovery.html.CyberNekoDOMHtmlParserTest" name="testParseHtmlWithXmlNamespace"/>
+</testsuite>

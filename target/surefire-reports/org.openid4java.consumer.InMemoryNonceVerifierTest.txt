@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openid4java.consumer.InMemoryNonceVerifierTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.049 sec

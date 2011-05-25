@@ -1,0 +1,3 @@
+status=302
+Location=http://localhost:8989/?headers=simplexrds&xrds=simplexrds
+Content-Type=text/plain

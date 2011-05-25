@@ -1,0 +1,4 @@
+status=200
+X-XRDS-Location=http://localhost:8989/?xrds=simplexrds&headers=simplexrds
+X-XRDS-Location=http://localhost:8989/?xrds=simplexrds
+Content-Type=text/html

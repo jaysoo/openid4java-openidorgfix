@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openid4java.discovery.NormalizationTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.132 sec

@@ -1,0 +1,9 @@
+#surefire
+#Wed May 25 10:04:17 EDT 2011
+TEST_DATA=/Users/jhsu/code/openid4java-read-only/test/src/org/openid4java/
+YADIS_TEST_DATA=/Users/jhsu/code/openid4java-read-only/target/test-data
+user.dir=/Users/jhsu/code/openid4java-read-only
+netbeans.execution=true
+localRepository=/Users/jhsu/.m2/repository
+SERVLET_PORT=8989
+basedir=/Users/jhsu/code/openid4java-read-only

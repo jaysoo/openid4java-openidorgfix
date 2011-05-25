@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.openid4java.discovery.xrds.XrdsParserTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.197 sec
